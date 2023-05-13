@@ -5,6 +5,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Shop } from './entities/shop.entity';
 
+// service here and control in controller
 @Injectable()
 export class ShopService {
   constructor(
