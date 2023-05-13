@@ -6,6 +6,7 @@ import { Repository } from 'typeorm';
 import { Shop } from './entities/shop.entity';
 
 // service here and control in controller
+// test
 @Injectable()
 export class ShopService {
   constructor(
