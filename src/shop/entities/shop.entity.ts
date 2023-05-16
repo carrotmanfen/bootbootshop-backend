@@ -22,6 +22,9 @@ export class Shop {
 
     @Column()
     color:string;
+
+    @Column()
+    picture:string;
     
 }
 

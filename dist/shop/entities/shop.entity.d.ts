@@ -6,4 +6,5 @@ export declare class Shop {
     cost: number;
     size: number;
     color: string;
+    picture: string;
 }

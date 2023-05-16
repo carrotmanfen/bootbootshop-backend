@@ -41,6 +41,10 @@ __decorate([
     (0, typeorm_1.Column)(),
     __metadata("design:type", String)
 ], Shop.prototype, "color", void 0);
+__decorate([
+    (0, typeorm_1.Column)(),
+    __metadata("design:type", String)
+], Shop.prototype, "picture", void 0);
 Shop = __decorate([
     (0, typeorm_1.Entity)()
 ], Shop);
